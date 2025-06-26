@@ -32,6 +32,7 @@ Below are the queries I wrote and tested step by step using the `SkillSwapDB` da
 
 SELECT * FROM Users;
 📸 Screenshot:
+
 ![Screenshot 2025-06-26 111000](https://github.com/user-attachments/assets/e28b3571-2bb5-453e-baec-3a625eec5778)
 
 
@@ -39,6 +40,7 @@ SELECT * FROM Users;
 
 SELECT name, role FROM Users;
 📸 Screenshot:
+![Screenshot 2025-06-26 111035](https://github.com/user-attachments/assets/c50e10eb-26a1-4fa7-8f40-52d15b3f88de)
 
 
 🔹 3. Show Only Learners
@@ -46,7 +48,9 @@ SELECT name, role FROM Users;
 SELECT * FROM Users
 WHERE role = 'learner';
 📸 Screenshot:
-![Screenshot 2025-06-26 111110](https://github.com/user-attachments/assets/f68052c3-ae58-45bb-b0e4-1d60e9c2f62e)
+
+![Screenshot 2025-06-26 111110](https://github.com/user-attachments/assets/d91f3186-9ead-462b-bf33-8dfe7c834722)
+
 
 
 🔹 4. Educators with .com Email
@@ -86,7 +90,8 @@ ORDER BY price DESC;
 SELECT * FROM Users
 LIMIT 3;
 📸 Screenshot:
-![Screenshot 2025-06-26 111710](https://github.com/user-attachments/assets/d95c6557-9ed4-4328-9eff-1daf7d696927)
+![Screenshot 2025-06-26 111639](https://github.com/user-attachments/assets/e707cb52-d968-4502-a226-be8c26de18b0)
+
 
 
 
